@@ -7,7 +7,12 @@ ExpressJS<br/>
 ReactJS<br/>
 NodeJs<br/>
 <br/>
-Used SASS Pre-compiler for css.
+
+Used:<br/> 
+SASS Pre-compiler for css.</br>
+Axios for API Intgration.<br/>
+Heroku for API Deployment
+Netlify for App Deployment 
 
 ## Screen Shots
 
