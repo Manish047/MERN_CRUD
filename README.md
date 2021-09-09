@@ -23,7 +23,7 @@ https://users-47.netlify.app/
   <img src="./snapshots/1.png" width="700px"/>
 </div>
 
-### New User
+### Add User
 <div align="center">
   <img src="./snapshots/2.png" width="700px"/>
 </div>
