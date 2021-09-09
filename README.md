@@ -16,20 +16,25 @@ Netlify for App Deployment.
 ## Try it yourself:<br/>
 https://users-47.netlify.app/
 
-## Screen Shots
+## Screen shots
 
+### Home - All Users
 <div align="center">
   <img src="./snapshots/1.png" width="700px"/>
 </div>
 
+### New User
 <div align="center">
   <img src="./snapshots/2.png" width="700px"/>
 </div>
 
+
+### Edit User
 <div align="center">
   <img src="./snapshots/3.png" width="700px"/>
 </div>
 
+### Delete User
 <div align="center">
   <img src="./snapshots/4.png" width="700px"/>
 </div>
