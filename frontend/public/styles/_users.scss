@@ -1,0 +1,77 @@
+@import "./variables";
+@import "./common";
+
+.users {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+    .user {
+        border-radius: 8px;
+        @include flex(column, stretch, center);
+        .user-content {
+            height: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            background-color: $carribean-green-lighter;
+            padding: 16px;
+            .user-content__name {
+                color: $midnight-green;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+            .user-content__details {
+                margin: 16px 0;
+                tbody {
+                    tr {
+                        td {
+                            padding: 4px 8px;
+                            &:nth-child(1) {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .user-actions {
+            @include flex(row, center, center);
+            button {
+                flex: 1;
+                border: none;
+                outline: none;
+                padding: 16px;
+                font: inherit;
+                font-weight: 500;
+                background-color: $carribean-green-light;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:nth-child(1) {
+                    border-bottom-left-radius: 8px;
+                    &:hover {
+                        background-color: $carribean-green;
+                    }
+                }
+                &:nth-child(2) {
+                    border-bottom-right-radius: 8px;
+                    &:hover {
+                        background-color: $carribean-green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .users {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .users {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

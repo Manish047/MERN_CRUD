@@ -1,0 +1,48 @@
+@import "./variables";
+@import "./common";
+
+header {
+    .toolbar {
+        height: 64px;
+        width: 100%;
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 0 16px;
+        @include flex(row, center, space-between);
+        .logo {
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 1.2rem;
+            cursor: default;
+            font-weight: bold;
+            color: $midnight-green;
+        }
+        .navigation {
+            height: 100%;
+            .navigation-items {
+                height: 100%;
+                @include flex(row, center, center);
+                .navigation-item {
+                    height: 100%;
+                    list-style: none;
+                    a {
+                        @include flex(row, center, center);
+                        height: 100%;
+                        padding: 0 8px;
+                        font-size: 1rem;
+                        text-decoration: none;
+                        color: $midnight-green;
+                        font-weight: bold;
+                        border-bottom: 5px solid transparent;
+                        transition: all 0.3s ease;
+                        &:hover,
+                        &:active,
+                        &.active {
+                            border-bottom: 5px solid $midnight-green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
