@@ -1,4 +1,4 @@
-# MERN_CRUD
+# MERN CRUD Web Application
 
 ## CRUD Application Using:
 
@@ -7,12 +7,14 @@ ExpressJS<br/>
 ReactJS<br/>
 NodeJs<br/>
 <br/>
-
 Used:<br/> 
 SASS Pre-compiler for css.</br>
 Axios for API Intgration.<br/>
-Heroku for API Deployment
-Netlify for App Deployment 
+Heroku for API Deployment.<br/>
+Netlify for App Deployment.
+
+## Try it yourself:<br/>
+https://users-47.netlify.app/
 
 ## Screen Shots
 
