@@ -2,11 +2,11 @@
 
 ## CRUD Application Using:
 
-MongoDB
-ExpressJS
-ReactJS
-NodeJs
-
+MongoDB<br/>
+ExpressJS<br/>
+ReactJS<br/>
+NodeJs<br/>
+<br/>
 Used SASS Pre-compiler for css.
 
 ## Screen Shots
